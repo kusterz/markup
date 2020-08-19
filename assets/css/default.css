@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: helvetica;
+  text-transform: uppercase;
+  margin: 0px;
+  font-size: 35px;
+}
+
+.im-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 5px solid grey;
+}
+
+.im-title-container {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  height: 200px;
+}
+
+.im-image-container {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.im-title {
+  float: left;
+  width: 33.33%;
+  height: 50px;
+}
+
+.im-title--left h1 {
+  text-align: left;
+
+}
+
+.im-title--center h1 {
+  text-align: center;
+}
+
+.im-title--right h1 {
+  text-align: right;
+}
+
+img {
+  width: 100%;
+
+}
